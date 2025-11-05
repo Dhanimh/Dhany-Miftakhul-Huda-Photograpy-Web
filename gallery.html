@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Studio - Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">📸 Capt Story</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <div class="header-actions">
+            <button class="signin-btn" onclick="window.location.href='login.html'">Sign In | Log In</button>
+            <div id="menu-icon">&#9776;</div>
+        </div>
+    </header>
+
+    <section id="gallery" class="section content-page gallery-page">
+        <h1>Kumpulan Karya Terbaik Saya</h1>
+        <p>Jelajahi portofolio fotografi terbaik berdasarkan kategori.</p>
+
+        <div class="gallery-grid">
+            <div class="photo-item portrait">
+                <span class="category-tag">Portrait</span>
+                <img src="img/WhatsApp Image 2025-10-16 at 07.03.48_11be9867.jpg" alt="Foto Portrait" loading="lazy">
+                Foto Portrait
+            </div>
+            <div class="photo-item wedding">
+                <span class="category-tag">Wedding</span>
+                <img src="img/WhatsApp Image 2025-10-16 at 07.03.48_b586ae6e.jpg" alt="Foto Wedding" loading="lazy">
+                Foto Wedding
+            </div>
+            <div class="photo-item nature">
+                <span class="category-tag">Nature</span>
+                <img src="img/WhatsApp Image 2025-10-16 at 07.03.48_91f790c2.jpg" alt="Foto Nature" loading="lazy">
+                Foto Nature
+            </div>
+            <div class="photo-item commercial">
+                <span class="category-tag">Commercial</span>
+                Foto Commercial
+            </div>
+            <div class="photo-item street">
+                <span class="category-tag">Street</span>
+                Foto Street
+            </div>
+            <div class="photo-item landscape">
+                <span class="category-tag">Landscape</span>
+                Foto Landscape
+            </div>
+        </div>
+        
+        <button class="contact-btn load-more-btn">Muat Lebih Banyak</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
